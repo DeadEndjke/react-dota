@@ -1,0 +1,14 @@
+.complexity {
+  display: grid;
+  grid-template-rows: auto;
+  align-content: center;
+  width: 150px;
+}
+
+.complexity img {
+  height: 20px;
+  width: 80px;
+  box-shadow: none;
+  border: none;
+  margin-top: 0;
+}

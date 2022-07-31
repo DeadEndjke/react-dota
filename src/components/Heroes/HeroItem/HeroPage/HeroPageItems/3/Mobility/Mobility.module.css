@@ -1,0 +1,10 @@
+.staticon {
+  width: 20px;
+  height: 20px;
+  border: none;
+  margin-right: 5px;
+}
+.letter {
+  position: relative;
+  bottom: 5px;
+}

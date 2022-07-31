@@ -1,0 +1,36 @@
+.back {
+  background-color: black;
+}
+
+.bg {
+  background-attachment: fixed;
+  position: fixed;
+}
+
+.backimage {
+  box-shadow: none;
+}
+
+.content {
+  position: relative;
+  top: -200px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.heroesweb {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.titlearea {
+  position: relative;
+  top: -60px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.maincontent {
+  position: relative;
+  top: 10px;
+}

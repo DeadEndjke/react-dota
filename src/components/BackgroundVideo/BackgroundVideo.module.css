@@ -1,0 +1,10 @@
+P {
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: rgb(1, 146, 139);
+}
+a:hover {
+  color: rgb(91, 0, 165);
+}

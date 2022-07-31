@@ -1,0 +1,48 @@
+.bgimage {
+  /* background-attachment: fixed; */
+
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
+  z-index: 1;
+}
+
+.maincontent {
+  position: absolute;
+  top: 20px;
+  right: 200px;
+  left: 200px;
+  width: 1200px;
+  margin: 100px auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+.photoatrattacktipecomplexityandstats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+  margin-bottom: 10px;
+}
+
+.heropage {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 0;
+  box-shadow: none;
+}
+.heropageitem {
+  width: 375px;
+  margin-bottom: 10px;
+}
+.stats {
+}

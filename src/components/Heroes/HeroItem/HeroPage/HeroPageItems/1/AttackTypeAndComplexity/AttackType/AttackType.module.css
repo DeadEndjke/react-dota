@@ -1,0 +1,20 @@
+.attacktype {
+  display: grid;
+  align-content: center;
+  width: 150px;
+}
+
+.attacktypeimgandname img {
+  width: 20px;
+
+  height: 100%;
+  box-shadow: none;
+  border: none;
+  margin-top: 0;
+}
+
+.attacktypename {
+  position: relative;
+
+  bottom: 7px;
+}

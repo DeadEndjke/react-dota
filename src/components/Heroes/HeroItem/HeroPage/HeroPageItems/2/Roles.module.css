@@ -1,0 +1,9 @@
+.roles {
+  display: grid;
+  width: 100px;
+  height: 120px;
+}
+.role {
+  position: relative;
+  top: 12px;
+}

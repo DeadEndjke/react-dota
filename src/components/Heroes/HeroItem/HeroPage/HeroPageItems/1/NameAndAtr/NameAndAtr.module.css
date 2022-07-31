@@ -1,0 +1,26 @@
+.nameandatr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "n a";
+}
+
+.atrimage {
+  width: 20px;
+  height: 20px;
+  box-shadow: none;
+  border: none;
+  margin-top: 0;
+}
+.heroname {
+  grid-area: n;
+}
+
+.heroattr {
+  grid-area: a;
+  text-align: center;
+}
+
+.atribute {
+  position: relative;
+  bottom: 3px;
+}

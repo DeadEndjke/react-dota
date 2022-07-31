@@ -1,0 +1,73 @@
+.abilities {
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  grid-template-areas: "a1 a2 a3 a4";
+  width: 360px;
+  margin: 0 auto;
+}
+
+.firstbutton {
+  grid-area: a1;
+  width: 64px;
+  height: 64px;
+}
+.secondbutton {
+  grid-area: a2;
+  width: 64px;
+  height: 64px;
+}
+.thirdbutton {
+  grid-area: a3;
+  width: 64px;
+  height: 64px;
+}
+.fourthbutton {
+  grid-area: a4;
+  width: 64px;
+  height: 64px;
+}
+
+.scale {
+  transition: 0.5s;
+  filter: brightness(20%);
+  border: 1px solid white;
+}
+.scale:hover {
+  transform: scale(1.2);
+  filter: brightness(100%);
+}
+
+.scaled {
+  transition: 0.5s;
+  /* transform: scale(1.2); */
+  filter: brightness(100%);
+  border: 1px solid white;
+}
+
+.scaled:hover {
+  transform: scale(1.2);
+  filter: brightness(100%);
+}
+
+.abilityvideo video {
+  width: 550px;
+  grid-area: v;
+  margin-top: 15px;
+  box-shadow: 0 0 10px 5px rgb(58, 58, 58);
+}
+
+.abilityvideo {
+  padding-bottom: 20px;
+}
+
+.abilityprev {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "v i";
+}
+.abilityprev img {
+  margin-top: 15px;
+  margin-left: 1px;
+  grid-area: i;
+  width: 590px;
+}
